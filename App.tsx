@@ -1,8 +1,13 @@
 import React from 'react';
-import HelloWorldScreen from './src/screens/HelloWorldScreen';
+
+// import HelloWorldScreen from './src/screens/HelloWorldScreen';
+import CounterScreen from './src/screens/CounterScreen';
 
 const App = () => {
-  return <HelloWorldScreen />;
+  return (
+    // <HelloWorldScreen />;
+    <CounterScreen />
+  );
 };
 
 export default App;
