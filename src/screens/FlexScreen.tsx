@@ -4,9 +4,9 @@ import {StyleSheet, Text, View} from 'react-native';
 const FlexScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.box1} />
-      <Text style={styles.box2} />
-      <Text style={styles.box3} />
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
     </View>
   );
 };
@@ -15,26 +15,24 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#28C4D9',
     flex: 1,
+    flexDirection: 'column-reverse',
   },
   box1: {
     backgroundColor: 'yellow',
     borderColor: 'white',
     borderWidth: 2,
-    flex: 4,
     fontSize: 30,
   },
   box2: {
     backgroundColor: 'blue',
     borderColor: 'white',
     borderWidth: 2,
-    flex: 3,
     fontSize: 30,
   },
   box3: {
     backgroundColor: 'red',
     borderColor: 'white',
     borderWidth: 2,
-    flex: 3,
     fontSize: 30,
   },
 });
