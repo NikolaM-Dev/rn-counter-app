@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
   },
   box1: {
+    alignSelf: 'center',
     backgroundColor: 'yellow',
     borderColor: 'white',
     borderWidth: 2,
